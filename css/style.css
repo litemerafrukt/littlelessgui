@@ -1,0 +1,240 @@
+/* My style */
+
+@font-face {
+    font-family: 'Commodore 64 Angled';
+    src: url('./fonts/Commodore-Angled-v1.2.eot');
+    src: url('./fonts/Commodore-Angled-v1.2.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Commodore-Angled-v1.2.woff') format('woff'),
+         url('./fonts/Commodore-Angled-v1.2.ttf') format('truetype'),
+         url('./fonts/Commodore-Angled-v1.2.svg#Commodore64Angled') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    font-family: 'Commodore 64 Angled', monospace;
+    background-color: #A4A3FF;
+    margin: 0;
+    line-height: 1;
+}
+
+@media all and (max-width: 500px) {
+    body {
+        font-size: small;
+    }
+}
+
+@media all and (min-width: 600px) {
+    body {
+        font-size: large;
+    }
+}
+
+@media all and (min-width: 800px) {
+    body {
+        font-size: x-large;
+    }
+}
+
+@media all and (min-width: 1030px) {
+    body {
+        font-size: xx-large;
+    }
+}
+
+h4 {
+    font-style: italic;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+a {
+    cursor: pointer;
+    background-color: #A4A3FF;
+    color: #4140E4;
+    text-decoration: none;
+}
+
+/**------------------------------------------------------
+ * Some new stuff
+ */
+
+/*p {
+    margin: 0;
+}*/
+
+.header-text {
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.header-links a {
+    margin: 0 1.5em;
+}
+
+
+.cursor {
+    animation: blinking 1s step-start infinite;
+    background-color: #A4A3FF;
+    width: 1rem;
+}
+
+@keyframes blinking {
+  50% { opacity: 0; }
+}
+
+input {
+    background: transparent;
+    /* color: white; */
+    border: none;
+    color: #4140E4;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+input:focus {
+    outline: 0;
+}
+
+.screen {
+    display: block;
+    background-color: #4140E4;
+    color: #A4A3FF;
+    padding: 1px;
+    /* padding-top: 1rem; */
+    /* bottom: 2rem; */
+    overflow: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 85%;
+    height: 90%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+
+.blog-article {
+    text-transform: none;
+}
+
+/* #inputField { */
+/*     background: transparent; */
+/*     color: #A4A3FF; */
+/*     font-size: inherit; */
+/*     font-family: inherit; */
+/*     text-transform: uppercase; */
+/*     border: none; */
+/* } */
+
+/* #inputField:after { */
+/*     content: "B"; */
+/*     background-color: #A4A3FF; */
+/*     width: 1rem; */
+/*     animation: blinking 1.5s step-start infinite; */
+/* } */
+
+/**------------------------------------------------------
+ * Old classes
+ */
+
+/*.picture-list {
+    margin: 0;
+    padding: 0;
+}
+
+.picture-list a {
+    margin-bottom: 0.3rem;
+}
+
+.picture-list li {
+    background-color: #A4A3FF;
+    color: #4140E4;
+    list-style: none;
+    clear: both;
+    margin: 0;
+    padding-top: 0.3rem;
+    padding-bottom: 1rem;
+}
+
+.picture-list p {
+    margin-top: 0.7rem;
+    margin-bottom: 0;
+    padding-left: 2rem;
+}
+
+@media all and (min-width: 700px) {
+    .picture-list p {
+        margin: 0.9rem;
+    }
+}
+
+.report-menu {
+    margin: 0;
+    padding: 0;
+}
+
+.report-menu h3 {
+    display: inline;
+    cursor: pointer;
+}
+
+.report-menu > li {
+    list-style: none;
+}
+
+.report-menu ol {
+    margin: 0;
+    padding: 0;
+}
+
+.kmom-head li {
+    list-style: none;
+}
+
+li .kmom-head + input[type=checkbox] {
+    display: none;
+}
+
+li .kmom-head + input[type=checkbox] + ol > li {
+    display: none;
+}
+
+li .kmom-head + input[type=checkbox]:checked + ol > li {
+    display: block;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.big-center-image {
+    display: block;
+    width: 75%;
+    max-width: 320px;
+    max-height: 200px;
+    margin: 0 auto;
+}
+
+.small-left-image {
+    width: 53px;
+    float: left;
+    margin: 3px;
+}
+
+@media all and (min-width: 700px) {
+    .small-left-image {
+        width: 71px;
+    }
+}
+.img-text {
+    text-align: center;
+    font-style: italic;
+    font-size: x-small;
+}*/
