@@ -2,4 +2,4 @@
 
 A toy me-page built with Elm, inspired by C64.
 
-[litemerafrukt.se](http://litemerafrukt.se)
+[litemerafrukt.se](http://litemerafrukt.se/retrome)
